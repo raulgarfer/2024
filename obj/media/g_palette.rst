@@ -41,10 +41,10 @@
                              41 ;--------------------------------------------------------
                              42 	.area _CODE
                              43 	.area _CODE
-   41A0                      44 _g_palette:
-   41A0 55                   45 	.db #0x55	; 85	'U'
-   41A1 4C                   46 	.db #0x4c	; 76	'L'
-   41A2 54                   47 	.db #0x54	; 84	'T'
-   41A3 4A                   48 	.db #0x4a	; 74	'J'
+   40D0                      44 _g_palette:
+   40D0 55                   45 	.db #0x55	; 85	'U'
+   40D1 4C                   46 	.db #0x4c	; 76	'L'
+   40D2 54                   47 	.db #0x54	; 84	'T'
+   40D3 4A                   48 	.db #0x4a	; 74	'J'
                              49 	.area _INITIALIZER
                              50 	.area _CABS (ABS)

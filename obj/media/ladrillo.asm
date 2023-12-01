@@ -42,37 +42,21 @@
 	.area _CODE
 	.area _CODE
 _ladrillo:
-	.db #0x0c	; 12
-	.db #0x0c	; 12
-	.db #0x0c	; 12
-	.db #0x0c	; 12
-	.db #0xcc	; 204
-	.db #0xcc	; 204
-	.db #0xcc	; 204
-	.db #0xcc	; 204
-	.db #0xcc	; 204
-	.db #0xcc	; 204
-	.db #0xcc	; 204
-	.db #0xcc	; 204
-	.db #0xcc	; 204
-	.db #0xcc	; 204
-	.db #0xcc	; 204
-	.db #0xcc	; 204
-	.db #0x0c	; 12
-	.db #0x0c	; 12
-	.db #0x0c	; 12
-	.db #0x0c	; 12
-	.db #0xcc	; 204
-	.db #0xcc	; 204
-	.db #0x4c	; 76	'L'
-	.db #0xcc	; 204
-	.db #0xcc	; 204
-	.db #0xcc	; 204
-	.db #0x4c	; 76	'L'
-	.db #0xcc	; 204
-	.db #0xcc	; 204
-	.db #0xcc	; 204
-	.db #0x4c	; 76	'L'
-	.db #0xcc	; 204
+	.db #0x0f	; 15
+	.db #0x0f	; 15
+	.db #0xff	; 255
+	.db #0xff	; 255
+	.db #0xff	; 255
+	.db #0xff	; 255
+	.db #0xff	; 255
+	.db #0xff	; 255
+	.db #0x0f	; 15
+	.db #0x0f	; 15
+	.db #0xff	; 255
+	.db #0x7f	; 127
+	.db #0xff	; 255
+	.db #0x7f	; 127
+	.db #0xff	; 255
+	.db #0x7f	; 127
 	.area _INITIALIZER
 	.area _CABS (ABS)

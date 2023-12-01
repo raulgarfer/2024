@@ -1,3 +1,31 @@
 {
-    "file.lastUsedOpenFilter": "All Files (*)"
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "",
+    "expandedProjectPaths": [
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "/home/raul/Documents/2024/src/sprites/01.tmx": {
+            "scale": 2.8499999999999996,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 124.03508771929825,
+                "y": 100.00000000000001
+            }
+        }
+    },
+    "map.height": 25,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 8,
+    "map.tileWidth": 8,
+    "map.width": 32,
+    "openFiles": [
+    ],
+    "project": "",
+    "recentFiles": [
+        "/home/raul/Documents/2024/src/sprites/01.tmx"
+    ]
 }

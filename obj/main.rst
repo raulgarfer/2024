@@ -5027,13 +5027,13 @@ Hexadecimal [16-Bits]
                              16 ;; MAIN function. This is the entry point of the application.
                              17 ;;    _main:: global symbol is required for correctly compiling and linking
                              18 ;;
-   44C4                      19 _main::
+   43F4                      19 _main::
                              20    ;; Disable firmware to prevent it from interfering with string drawing
-   44C4 CD 02 46      [17]   21    call cpct_disableFirmware_asm
-   44C7 0E 00         [ 7]   22    ld c,#0
-   44C9 CD F5 45      [17]   23    call cpct_setVideoMode_asm
-   44CC CD D1 44      [17]   24    call tilemap
+   43F4 CD 32 45      [17]   21    call cpct_disableFirmware_asm
+   43F7 0E 00         [ 7]   22    ld c,#0
+   43F9 CD 25 45      [17]   23    call cpct_setVideoMode_asm
+   43FC CD 01 44      [17]   24    call tilemap
                              25 
                              26    ;; Loop forever
-   44CF                      27 loop:
-   44CF 18 FE         [12]   28    jr    loop
+   43FF                      27 loop:
+   43FF 18 FE         [12]   28    jr    loop

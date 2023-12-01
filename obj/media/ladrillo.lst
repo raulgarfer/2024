@@ -42,37 +42,21 @@
                              42 	.area _CODE
                              43 	.area _CODE
    0000                      44 _ladrillo:
-   0000 0C                   45 	.db #0x0c	; 12
-   0001 0C                   46 	.db #0x0c	; 12
-   0002 0C                   47 	.db #0x0c	; 12
-   0003 0C                   48 	.db #0x0c	; 12
-   0004 CC                   49 	.db #0xcc	; 204
-   0005 CC                   50 	.db #0xcc	; 204
-   0006 CC                   51 	.db #0xcc	; 204
-   0007 CC                   52 	.db #0xcc	; 204
-   0008 CC                   53 	.db #0xcc	; 204
-   0009 CC                   54 	.db #0xcc	; 204
-   000A CC                   55 	.db #0xcc	; 204
-   000B CC                   56 	.db #0xcc	; 204
-   000C CC                   57 	.db #0xcc	; 204
-   000D CC                   58 	.db #0xcc	; 204
-   000E CC                   59 	.db #0xcc	; 204
-   000F CC                   60 	.db #0xcc	; 204
-   0010 0C                   61 	.db #0x0c	; 12
-   0011 0C                   62 	.db #0x0c	; 12
-   0012 0C                   63 	.db #0x0c	; 12
-   0013 0C                   64 	.db #0x0c	; 12
-   0014 CC                   65 	.db #0xcc	; 204
-   0015 CC                   66 	.db #0xcc	; 204
-   0016 4C                   67 	.db #0x4c	; 76	'L'
-   0017 CC                   68 	.db #0xcc	; 204
-   0018 CC                   69 	.db #0xcc	; 204
-   0019 CC                   70 	.db #0xcc	; 204
-   001A 4C                   71 	.db #0x4c	; 76	'L'
-   001B CC                   72 	.db #0xcc	; 204
-   001C CC                   73 	.db #0xcc	; 204
-   001D CC                   74 	.db #0xcc	; 204
-   001E 4C                   75 	.db #0x4c	; 76	'L'
-   001F CC                   76 	.db #0xcc	; 204
-                             77 	.area _INITIALIZER
-                             78 	.area _CABS (ABS)
+   0000 0F                   45 	.db #0x0f	; 15
+   0001 0F                   46 	.db #0x0f	; 15
+   0002 FF                   47 	.db #0xff	; 255
+   0003 FF                   48 	.db #0xff	; 255
+   0004 FF                   49 	.db #0xff	; 255
+   0005 FF                   50 	.db #0xff	; 255
+   0006 FF                   51 	.db #0xff	; 255
+   0007 FF                   52 	.db #0xff	; 255
+   0008 0F                   53 	.db #0x0f	; 15
+   0009 0F                   54 	.db #0x0f	; 15
+   000A FF                   55 	.db #0xff	; 255
+   000B 7F                   56 	.db #0x7f	; 127
+   000C FF                   57 	.db #0xff	; 255
+   000D 7F                   58 	.db #0x7f	; 127
+   000E FF                   59 	.db #0xff	; 255
+   000F 7F                   60 	.db #0x7f	; 127
+                             61 	.area _INITIALIZER
+                             62 	.area _CABS (ABS)

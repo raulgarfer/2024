@@ -18,61 +18,61 @@ Area                                    Addr        Size        Decimal Bytes (A
      00000000  l__INITIALIZER                  
      00000000  s__CABS                         
      00000000  s__DABS                         
-     000006A6  l__CODE                         
+     000005D6  l__CODE                         
      00004000  s__CODE                         
-     000046A6  s__DATA                         
-     000046A6  s__GSFINAL                      
-     000046A6  s__GSINIT                       
-     000046A6  s__HOME                         
-     000046A6  s__INITIALIZED                  
-     000046A6  s__INITIALIZER                  
+     000045D6  s__DATA                         
+     000045D6  s__GSFINAL                      
+     000045D6  s__GSINIT                       
+     000045D6  s__HOME                         
+     000045D6  s__INITIALIZED                  
+     000045D6  s__INITIALIZER                  
 
 ASxxxx Linker V03.00 + NoICE + sdld,  page 2.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE                               00004000    000006A6 =        1702. bytes (REL,CON)
+_CODE                               00004000    000005D6 =        1494. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
      00004000  _tiles_00                          tileset
-     00004020  _tiles_01                          tileset
-     00004040  _tiles_02                          tileset
-     00004060  _tiles_03                          tileset
-     00004080  _tiles_04                          tileset
-     000040A0  _tiles_05                          tileset
-     000040C0  _tiles_06                          tileset
-     000040E0  _tiles_07                          tileset
-     00004100  _tiles_08                          tileset
-     00004120  _tiles_09                          tileset
-     00004140  _tiles_10                          tileset
-     00004160  _tiles_11                          tileset
-     00004180  _ladrillo                          ladrillo
-     000041A0  _g_palette                         g_palette
-     000041A4  _p01                               
-     000044C4  _main                              cpct_keyboard
-     000044D1  tilemap                            cpct_keyboard
-     000044E8  cpct_drawStringM1_asm              cpct_strings
-     0000450C  cpct_drawCharM1_inner_asm          cpct_strings
-     0000454C  cpct_char2pxM1                     cpct_strings
-     0000455C  cpct_etm_drawTilemap4x8_ag_asm     cpct_easytilemaps
-     0000455E  cpct_etm_dtm4x8_ag_asm_widthHeig   cpct_easytilemaps
-     00004574  cpct_etm_dtm4x8_ag_asm_tilesetPt   cpct_easytilemaps
-     000045DF  cpct_etm_dtm4x8_ag_asm_restoreI    cpct_easytilemaps
-     000045E5  cpct_etm_dtm4x8_ag_asm_increment   cpct_easytilemaps
-     000045EA  cpct_etm_dtm4x8_ag_asm_restoreWi   cpct_easytilemaps
-     000045ED  cpct_etm_dtm4x8_ag_asm_updateWid   cpct_easytilemaps
-     000045F5  cpct_setVideoMode_asm              cpct_video
-     00004602  _cpct_disableFirmware              cpct_firmware
-     00004602  _cpct_removeInterruptHandler       cpct_firmware
-     00004602  cpct_disableFirmware_asm           cpct_firmware
-     00004602  cpct_removeInterruptHandler_asm    cpct_firmware
-     00004612  _cpct_mode_rom_status              cpct_firmware
-     00004613  cpct_etm_setDrawTilemap4x8_ag_as   cpct_easytilemaps
-     0000463F  cpct_getScreenPtr_asm              cpct_video
-     00004651  cpct_setDrawCharM1_asm             cpct_strings
-     000046A2  dc_mode1_ct                        
+     00004010  _tiles_01                          tileset
+     00004020  _tiles_02                          tileset
+     00004030  _tiles_03                          tileset
+     00004040  _tiles_04                          tileset
+     00004050  _tiles_05                          tileset
+     00004060  _tiles_06                          tileset
+     00004070  _tiles_07                          tileset
+     00004080  _tiles_08                          tileset
+     00004090  _tiles_09                          tileset
+     000040A0  _tiles_10                          tileset
+     000040B0  _tiles_11                          tileset
+     000040C0  _ladrillo                          ladrillo
+     000040D0  _g_palette                         g_palette
+     000040D4  _p01                               
+     000043F4  _main                              cpct_keyboard
+     00004401  tilemap                            cpct_keyboard
+     00004418  cpct_drawStringM1_asm              cpct_strings
+     0000443C  cpct_drawCharM1_inner_asm          cpct_strings
+     0000447C  cpct_char2pxM1                     cpct_strings
+     0000448C  cpct_etm_drawTilemap4x8_ag_asm     cpct_easytilemaps
+     0000448E  cpct_etm_dtm4x8_ag_asm_widthHeig   cpct_easytilemaps
+     000044A4  cpct_etm_dtm4x8_ag_asm_tilesetPt   cpct_easytilemaps
+     0000450F  cpct_etm_dtm4x8_ag_asm_restoreI    cpct_easytilemaps
+     00004515  cpct_etm_dtm4x8_ag_asm_increment   cpct_easytilemaps
+     0000451A  cpct_etm_dtm4x8_ag_asm_restoreWi   cpct_easytilemaps
+     0000451D  cpct_etm_dtm4x8_ag_asm_updateWid   cpct_easytilemaps
+     00004525  cpct_setVideoMode_asm              cpct_video
+     00004532  _cpct_disableFirmware              cpct_firmware
+     00004532  _cpct_removeInterruptHandler       cpct_firmware
+     00004532  cpct_disableFirmware_asm           cpct_firmware
+     00004532  cpct_removeInterruptHandler_asm    cpct_firmware
+     00004542  _cpct_mode_rom_status              cpct_firmware
+     00004543  cpct_etm_setDrawTilemap4x8_ag_as   cpct_easytilemaps
+     0000456F  cpct_getScreenPtr_asm              cpct_video
+     00004581  cpct_setDrawCharM1_asm             cpct_strings
+     000045D2  dc_mode1_ct                        
 
 ASxxxx Linker V03.00 + NoICE + sdld,  page 3.
 

@@ -3,8 +3,8 @@
 #define _SRC_SPRITES_LADRILLO_H_
 
 #include <types.h>
-#define LADRILLO_W 4
+#define LADRILLO_W 2
 #define LADRILLO_H 8
-extern const u8 ladrillo[4 * 8];
+extern const u8 ladrillo[2 * 8];
 
 #endif

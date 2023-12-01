@@ -41,38 +41,22 @@
                              41 ;--------------------------------------------------------
                              42 	.area _CODE
                              43 	.area _CODE
-   4180                      44 _ladrillo:
-   4180 0C                   45 	.db #0x0c	; 12
-   4181 0C                   46 	.db #0x0c	; 12
-   4182 0C                   47 	.db #0x0c	; 12
-   4183 0C                   48 	.db #0x0c	; 12
-   4184 CC                   49 	.db #0xcc	; 204
-   4185 CC                   50 	.db #0xcc	; 204
-   4186 CC                   51 	.db #0xcc	; 204
-   4187 CC                   52 	.db #0xcc	; 204
-   4188 CC                   53 	.db #0xcc	; 204
-   4189 CC                   54 	.db #0xcc	; 204
-   418A CC                   55 	.db #0xcc	; 204
-   418B CC                   56 	.db #0xcc	; 204
-   418C CC                   57 	.db #0xcc	; 204
-   418D CC                   58 	.db #0xcc	; 204
-   418E CC                   59 	.db #0xcc	; 204
-   418F CC                   60 	.db #0xcc	; 204
-   4190 0C                   61 	.db #0x0c	; 12
-   4191 0C                   62 	.db #0x0c	; 12
-   4192 0C                   63 	.db #0x0c	; 12
-   4193 0C                   64 	.db #0x0c	; 12
-   4194 CC                   65 	.db #0xcc	; 204
-   4195 CC                   66 	.db #0xcc	; 204
-   4196 4C                   67 	.db #0x4c	; 76	'L'
-   4197 CC                   68 	.db #0xcc	; 204
-   4198 CC                   69 	.db #0xcc	; 204
-   4199 CC                   70 	.db #0xcc	; 204
-   419A 4C                   71 	.db #0x4c	; 76	'L'
-   419B CC                   72 	.db #0xcc	; 204
-   419C CC                   73 	.db #0xcc	; 204
-   419D CC                   74 	.db #0xcc	; 204
-   419E 4C                   75 	.db #0x4c	; 76	'L'
-   419F CC                   76 	.db #0xcc	; 204
-                             77 	.area _INITIALIZER
-                             78 	.area _CABS (ABS)
+   40C0                      44 _ladrillo:
+   40C0 0F                   45 	.db #0x0f	; 15
+   40C1 0F                   46 	.db #0x0f	; 15
+   40C2 FF                   47 	.db #0xff	; 255
+   40C3 FF                   48 	.db #0xff	; 255
+   40C4 FF                   49 	.db #0xff	; 255
+   40C5 FF                   50 	.db #0xff	; 255
+   40C6 FF                   51 	.db #0xff	; 255
+   40C7 FF                   52 	.db #0xff	; 255
+   40C8 0F                   53 	.db #0x0f	; 15
+   40C9 0F                   54 	.db #0x0f	; 15
+   40CA FF                   55 	.db #0xff	; 255
+   40CB 7F                   56 	.db #0x7f	; 127
+   40CC FF                   57 	.db #0xff	; 255
+   40CD 7F                   58 	.db #0x7f	; 127
+   40CE FF                   59 	.db #0xff	; 255
+   40CF 7F                   60 	.db #0x7f	; 127
+                             61 	.area _INITIALIZER
+                             62 	.area _CABS (ABS)
