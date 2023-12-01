@@ -1,0 +1,16 @@
+XL2
+H 1 areas 6 global symbols
+M cpct_keyboard
+S cpct_etm_drawTilemap4x8_ag_asm Ref0000
+S .__.ABS. Def0000
+S _p01 Ref0000
+S cpct_etm_setDrawTilemap4x8_ag_asm Ref0000
+S _tiles_00 Ref0000
+A _CODE size 17 flags 0 addr 0
+S tilemap Def0000
+T 00 00
+R 00 00 00 00
+T 00 00 0E 20 06 19 11 20 00 21 00 00 CD 00 00 21
+R 00 00 00 00 02 0A 04 00 02 0D 03 00
+T 0E 00 00 C0 11 00 00 CD 00 00 C9
+R 00 00 00 00 02 05 02 00 02 08 00 00
