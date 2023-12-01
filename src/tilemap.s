@@ -12,9 +12,9 @@ tilemap::
 ;;
 ;;Note: it also uses current interrupt status (register I) as a value.  It should be considered as an additional parameter.
 ;;Assembly call (Input parameters on Registers)
-    ld c,#_p01_W
-    ld b,#_p01_H
-    ld de,#_p01_W
+    ld c,#32
+    ld b,#25
+    ld de,#32
     ld hl,#_tiles_00
         call cpct_etm_setDrawTilemap4x8_ag_asm
 ;;(2B HL) memory	Video memory location where to draw the tilemap (character & 4-byte aligned)

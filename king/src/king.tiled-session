@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "",
+    "activeFile": "/home/raul/Documents/2024/src/sprites/01.tmx",
     "expandedProjectPaths": [
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -15,6 +15,9 @@
                 "x": 124.03508771929825,
                 "y": 100.00000000000001
             }
+        },
+        "/home/raul/Documents/2024/src/sprites/tileset.tsx": {
+            "scaleInDock": 3
         }
     },
     "map.height": 25,
@@ -23,6 +26,8 @@
     "map.tileWidth": 8,
     "map.width": 32,
     "openFiles": [
+        "/home/raul/Documents/2024/src/sprites/01.tmx",
+        "/home/raul/Documents/2024/src/sprites/01.tmx"
     ],
     "project": "",
     "recentFiles": [
